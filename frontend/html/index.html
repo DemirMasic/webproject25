@@ -38,9 +38,9 @@
         </div>
     </nav>
     <div class="container-fluid">
-      
+     <form>  
       <div class="row d-flex justify-content-center">
-        <div class="col-4">
+        <div class="col-sm-4 col-12">
           <select id="brandSelect" class="form-select" aria-label="Select brand">
               <option value>Choose Brand</option>
               <option value="Audi">Audi</option>  
@@ -48,7 +48,7 @@
               <option value="Mercedes">Mercedes</option>
           </select>
          </div>
-         <div class="col-4">
+         <div class="col-sm-4 col-12">
           <select id="modelSelect" class="form-select" aria-label="Select model" disabled>
               <option value="" selected>Choose Model</option>
           </select>
@@ -56,14 +56,14 @@
       </div>
 
       <div class="row d-flex justify-content-center">
-        <div class="col-4">
+        <div class="col-sm-4 col-12">
           <select id="transmissionSelect" class="form-select" aria-label="Select transmission">
             <option value>Choose Transmission</option>
             <option value="Manual">Manual</option>  
             <option value="Automatic">Automatic</option>
           </select>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4 col-12">
           <select id="fuelSelect" class="form-select" aria-label="Select fuel">
             <option value>Choose Fuel</option>
             <option value="Diesel">Diesel</option>  
@@ -73,7 +73,7 @@
       </div>
 
       <div class="row d-flex justify-content-center">
-        <div class="col-4">
+        <div class="col-sm-4 col-12">
           <h6>Mileage</h6>
           <div class="form-group">
             <input type="number" class="form-control" id="mileageLower" placeholder="From" name="mileageLower">
@@ -82,7 +82,7 @@
             <input type="number" class="form-control" id="mileageUpper" placeholder="To" name="mileageUpper">
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4 col-12">
           <h6>Year</h6>
           <div class="form-group">
             <input type="number" class="form-control" id="yearLower" placeholder="From" name="yearLower">
@@ -92,7 +92,29 @@
           </div>
         </div>
       </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12">
+          <h6>Price</h6>
+          <div class="form-group">
+            <input type="number" class="form-control" id="priceLower" placeholder="From" name="priceLower">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="priceUpper" placeholder="To" name="priceUpper">
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12 d-flex justify-content-center">
+          <input type="submit" value="Search">
+        </div>
+      </div>
+     </form> 
     </div>
+
+    <!-- card -->
+     
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>

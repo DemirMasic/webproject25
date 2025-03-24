@@ -12,7 +12,9 @@ $(document).ready(function () {
     app.route({ view: "publishCar", load: "publishCar.html" });
     app.route({ view: "login", load: "login.html" });
     app.route({ view: "register", load: "register.html" });
-  
+    app.route({ view: "savedListings", load: "savedListings.html" });
+    app.route({ view: "messages", load: "messages.html" });
+    
     
     app.run();
   });

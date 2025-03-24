@@ -1,3 +1,4 @@
+/*
 document.addEventListener('DOMContentLoaded', function() {
     const brandSelect = document.getElementById('brandSelect');
     const modelSelect = document.getElementById('modelSelect');
@@ -35,4 +36,4 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
-  
+  */

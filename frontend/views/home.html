@@ -1,0 +1,80 @@
+<body>
+    <div class="container-fluid">
+     <form>  
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12">
+          <select id="brandSelect" class="form-select" aria-label="Select brand">
+              <option value>Choose Brand</option>
+              <option value="Audi">Audi</option>  
+              <option value="BMW">BMW</option>
+              <option value="Mercedes">Mercedes</option>
+          </select>
+         </div>
+         <div class="col-sm-4 col-12">
+          <select id="modelSelect" class="form-select" aria-label="Select model" disabled>
+              <option value="" selected>Choose Model</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12">
+          <select id="transmissionSelect" class="form-select" aria-label="Select transmission">
+            <option value>Choose Transmission</option>
+            <option value="Manual">Manual</option>  
+            <option value="Automatic">Automatic</option>
+          </select>
+        </div>
+        <div class="col-sm-4 col-12">
+          <select id="fuelSelect" class="form-select" aria-label="Select fuel">
+            <option value>Choose Fuel</option>
+            <option value="Diesel">Diesel</option>  
+            <option value="Gasoline">Gasoline</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12">
+          <h6>Mileage</h6>
+          <div class="form-group">
+            <input type="number" class="form-control" id="mileageLower" placeholder="From" name="mileageLower">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="mileageUpper" placeholder="To" name="mileageUpper">
+          </div>
+        </div>
+        <div class="col-sm-4 col-12">
+          <h6>Year</h6>
+          <div class="form-group">
+            <input type="number" class="form-control" id="yearLower" placeholder="From" name="yearLower">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="yearUpper" placeholder="To" name="yearUpper">
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12">
+          <h6>Price</h6>
+          <div class="form-group">
+            <input type="number" class="form-control" id="priceLower" placeholder="From" name="priceLower">
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" id="priceUpper" placeholder="To" name="priceUpper">
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-4 col-12 d-flex justify-content-center">
+          <button formaction="#listings">Search</button>
+        </div>
+      </div>
+     </form> 
+    </div>
+
+
+     
+
+</body>
